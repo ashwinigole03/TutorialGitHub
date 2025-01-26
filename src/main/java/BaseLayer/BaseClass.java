@@ -12,6 +12,10 @@ public class BaseClass {
 		WebDriver driver=new ChromeDriver();
 
 		driver.get("https://www.facebook.com/reg/");
+		
+		driver.manage().window().maximize();
+		
+		driver.navigate().to("https://www.redbus.in/");
 	}
 
 }
