@@ -13,13 +13,18 @@ public class BaseClass {
 
 		driver.get("https://www.facebook.com/reg/");
 		
+		
+		
 		driver.manage().window().maximize();
+		
 		
 		driver.navigate().to("https://www.redbus.in/");
 		
 		Thread.sleep(30);
 		
 		driver.navigate().to("https://www.amazon.in/");
+		
+		
 		
 		driver.close();
 	}
