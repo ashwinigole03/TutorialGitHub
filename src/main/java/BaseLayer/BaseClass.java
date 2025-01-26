@@ -20,6 +20,8 @@ public class BaseClass {
 		Thread.sleep(30);
 		
 		driver.navigate().to("https://www.amazon.in/");
+		
+		driver.close();
 	}
 
 }
